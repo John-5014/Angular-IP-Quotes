@@ -1,1 +1,15 @@
-<p>quotes-detail works!</p>
+<!-- <p>quotes-detail works!</p> -->
+<div id="appender">
+  <p>{{quotes.quote}}</p>
+  <p>{{quotes.author}}</p>
+  <p>posted {{quotes.completeDate|dateCount}} hours ago</p>
+  <button class="btn btn-outline-danger btn-sm" (click)='quoteDelete(true)'> Delete Quote </button>
+  <br>
+  <br>
+  <div class="buttons">
+    <button  class="btn btn-outline-primary btn-sm" (click)='like()'>upvote<img  src="https://imgix.bustle.com/lovelace/uploads/877/6c14ca30-fccc-0132-f41f-0e18518aac2f.png?w=646&fit=max&auto=format&q=70" style="width:19px;height:25px;" alt=""> {{upvote}}</button>
+    <button id="three"class="btn btn-outline-danger btn-sm" (click)='unlike()'>downvote<img src="https://image.flaticon.com/icons/svg/2107/2107671.svg" style="width:19px;height:25px;" alt="">{{downvote}}</button>
+  
+  </div>
+  </div>
+  
