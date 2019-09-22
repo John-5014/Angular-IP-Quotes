@@ -1,8 +1,8 @@
 <!-- <p>quotes works!</p> -->
 <div class="container-fluid">
-  <div id="home">
+  <div id="home" class="container-fluid">
     <h2>BRAINY-QUOTES MASTERS</h2>
-    <h5>"Positive Mind <br> Positive Vibes <br> Positive Life  "</h5>
+    <h5><strong><em>"Positive Mind <br> Positive Vibes <br> Positive Life  "</em></strong></h5>
   </div>
 </div>
 <app-quotes-form (addQuotes)="addNewQuote($event)"></app-quotes-form>
@@ -15,7 +15,7 @@
         <ul id="quotes">
 
           <li>{{quotes.publisher}} posted on {{quotes.completeDate|date}}</li>
-          <app-quotes-details [quotes]='quotes' (isComplete)='deleteQuote($event,i)'></app-quotes-details>
+          <app-quotes-detail [quotes]='quotes' (isComplete)='deleteQuote($event,i)'></app-quotes-detail>
         </ul>
 
     </div>

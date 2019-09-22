@@ -1,5 +1,5 @@
 #home{
-  background-image: url("https://www.pexels.com/photo/silhouette-of-trees-at-sunset-257092/");
+  background-image:url('https://images.unsplash.com/photo-1501369343204-a53c9cd517bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 18%;
@@ -50,6 +50,27 @@ ul{
   text-decoration: underline solid gold;
 
 }
-#home h2, h5 {
+h2{
+  font-family: italics;
+  font-style: oblique;
+  color: gold;
+}
+#home  h5 {
   font-family: 'Amatic SC', cursive;
+  color:white;
+}
+h2 , h5{
+  animation: mymove 5s infinite;
+  padding-top:9%;
+}
+@keyframes mymove {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-55px);
+  }
+  60% {
+    transform: translateY(-45px);
+  }
 }
