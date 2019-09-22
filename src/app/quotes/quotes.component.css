@@ -1,0 +1,55 @@
+#home{
+  background-image: url("https://www.pexels.com/photo/silhouette-of-trees-at-sunset-257092/");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 18%;
+  text-align: center;
+
+}
+ul{
+  color:white;
+}
+#next{
+  background-image:url('https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?cs=srgb&dl=cool-wallpaper-dawn-hd-wallpaper-66997.jpg&fm=jpg');
+  /* height: 99vh; */
+  /* width:100%; */
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+#quotes{
+  border: 1px solid white;
+  padding: 25px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 100px;
+  
+}
+#quotes:hover{
+  background-color:grey;
+  opacity:0.8;
+}
+#one {
+  background-color: 	#008080;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#pad {
+  padding-top: 60px;
+  text-align:center;
+  font-size: 43px;
+  color:white;
+  text-decoration: underline solid gold;
+
+}
+#home h2, h5 {
+  font-family: 'Amatic SC', cursive;
+}
