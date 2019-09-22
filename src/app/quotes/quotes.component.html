@@ -6,3 +6,19 @@
   </div>
 </div>
 <app-quotes-form (addQuotes)="addNewQuote($event)"></app-quotes-form>
+<div id="next" class="container-fluid">
+  <div class="row">
+    <div class="col4 inner-left">
+      
+      <h4 id="pad">UPDATED QUOTES</h4>
+      <div *ngFor="let quotes of quotes;let i = 'index'">
+        <ul id="quotes">
+
+          <li>{{quotes.publisher}} posted on {{quotes.completeDate|date}}</li>
+          <app-quotes-details [quotes]='quotes' (isComplete)='deleteQuote($event,i)'></app-quotes-details>
+        </ul>
+
+    </div>
+
+  </div>
+</div>
