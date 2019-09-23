@@ -7,6 +7,9 @@
           <form (ngSubmit)='submitQuotes()' #quoteForm='ngForm'>
   
             <div class="form-group">
+              <h6><em>"Share your quotes with the world and become a master in words with few key steps" </em></h6>
+
+              
               <label for="publisher">Publisher</label>
               <input type="text" class="form-control" id="publisher" [(ngModel)]="newQuotes.publisher" name="publisher" #publisher="ngModel" required>
   
@@ -37,6 +40,31 @@
             </div>
   
             <button type="Submit" class="btn btn-success btn-lg">Add Quote</button>
+
+            <div class="container">
+              
+              
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="socialbox m1"><h3><i class="fa fa-share-alt"></i></h3> 
+                         <div class="a a1"><i class="fa fa-facebook"></i></div>
+              
+                            <div class="a c1"><i class="fa fa-instagram"></i></div>
+                            <div class="a b1"><i class="fa fa-linkedin"></i></div>
+                            <div class="a d1"><i class="fa fa-youtube"></i></div>
+                        </div>
+                           
+                       
+                    </div>
+                          <div class="col-md-6">
+                    <div class="circle"><i class="fa fa-phone"></i></div>
+                   </div>
+                   
+                    <div class="col-md-6">
+                    <div class="circle2"><i class="fa fa-phone"></i></div>
+                   </div></div>
+                   
+                   </div>
           </form>
         </div>
       </div>

@@ -6,3 +6,57 @@
 .form-group{
   color:black;
 }
+h6{
+  font-weight: bolder;
+  margin-bottom: 50px;
+  text-decoration: underline;
+  color: goldenrod;
+}
+.socialbox{width:100px;height:100px;border-radius:50%;background:#37B0F1;text-align:center;border:4px solid #ccc;box-shadow:0 0 5px #000, inset 0 0 10px #fff;position:relative;z-index:9;display:block;margin:0 auto;}
+.socialbox h3{line-height:90px;margin:0;padding:0;color:#fff;text-transform:uppercase;position:relative;text-align:center;font-weight:bold;}
+.a{width:50px;height:50px;border-radius:50%;background:#37B0F1;text-align:center;border:4px solid #ccc;box-shadow:0 0 5px #000, inset 0 0 10px #fff;float:left;line-height:35px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);transition:all 1s ease;opacity:0;}
+.fa{color:#fff;text-shadow:0 0 2px #000;}
+
+
+.a1.active {left:150px;opacity:1;background:#395693}
+.b1.active{left:350px;opacity:1;background:#0370AE}
+.c1.active{left:250px;opacity:1;background:#F20071}
+.d1.active{left:450px;opacity:1;background:#F4302F}
+.activemk{transition:1s linear;background:#45DA05}
+
+
+
+
+.circle{margin:0 auto;width:100px;height:100px;position:relative;text-align:center;border-radius:50%;box-shadow:inset 0 0 20px #000}
+
+.circle::before{width:100px;height:100px;border-radius:50%;border:10px solid transparent;content:"";position:absolute;border-right-color:orange;border-bottom-color:#6cdbff;top:0;left:0;animation: moveon 2s infinite alternate}
+
+
+.circle::after{width:100px;height:100px;border-radius:50%;border:10px solid transparent;content:"";position:absolute;border-left-color:green;border-top-color:red;top:0;left:0;animation: moveon2 2s infinite alternate}
+
+@keyframes moveon{
+from{transform:rotate(360deg);}
+to{transform:rotate(0deg);}
+}
+@keyframes moveon2{
+from{transform:rotate(0deg);}
+to{transform:rotate(540deg);}
+}
+
+
+.circle .fa{font-size:30px;color:blue;line-height:100px;}
+
+
+
+
+
+.circle2{margin:0 auto;;width:100px;height:100px;position:relative;text-align:center}
+
+.circle2::before{width:100px;height:100px;border-radius:50%;border:10px solid #ccc;content:"";position:absolute;border-left-color:red;border-top-color:red;top:0;left:0;}
+
+
+.circle2::after{width:100px;height:100px;border-radius:50%;border:10px solid #ccc;content:"";position:absolute;border-left-color:red;border-top-color:red;top:0;left:0;transition:all 200ms ease}
+
+.circle2:hover::after{transform:rotate(360deg);transition:all 300ms ease}
+.circle2 .fa{font-size:30px;color:blue;line-height:100px;}
+
