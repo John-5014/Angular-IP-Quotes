@@ -16,7 +16,7 @@ This is my first Angular app in quote generations where a user inputs a quote of
 * A computer or network access device
 * link to the website or the url
 
-##Known Bugs
+## Known Bugs
 The page had problems loading some images due to slow internet and processig power.
 
 
