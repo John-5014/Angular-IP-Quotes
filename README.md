@@ -1,10 +1,20 @@
+## By John *Karanja N.*
+
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+
+## Description
+This is my first Angular app in quote generations where a user inputs a quote of desired preference and submits.In turn there is an option of  liking by upvoting and disliking by downvoting.
+
+## Steps to visit the Websites
+* To visit this website one needs a web browser
+* An active internet
+* A computer or network access device
+* link to the website or the url
 
 ##Known Bugs
 The page had problems loading some images due to slow internet and processig power.
@@ -35,3 +45,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 For any complications with the app or review feel free to reach me at:
 kaiserjohn52@gmail.com
+
+### License
+MIT
+Copyright (c)2019 **John Karanja N.**
